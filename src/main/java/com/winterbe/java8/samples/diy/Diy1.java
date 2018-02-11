@@ -10,6 +10,8 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 /**
+ * https://zhuanlan.zhihu.com/p/33477686
+ *
  * @package:com.winterbe.java8.samples.diy
  * @author: lizhang
  * @date: 2018-02-11 9:13
