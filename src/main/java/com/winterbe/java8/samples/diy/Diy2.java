@@ -2,7 +2,7 @@ package com.winterbe.java8.samples.diy;
 
 import com.google.common.collect.Lists;
 import org.junit.Assert;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.Collections;
 import java.util.Comparator;

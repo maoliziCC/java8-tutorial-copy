@@ -1,6 +1,7 @@
 package com.winterbe.java8.samples.diy;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
