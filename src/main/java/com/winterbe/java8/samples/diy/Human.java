@@ -7,8 +7,8 @@ package com.winterbe.java8.samples.diy;
  */
 public class Human {
 
-    private String name;
-    private int age;
+    public String name;
+    public Integer age;
 
     public Human() {
         super();
@@ -27,11 +27,11 @@ public class Human {
         this.name = name;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -51,5 +51,13 @@ public class Human {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + age;
         return result;
+    }
+
+    public static int compareByNameThenAge(Human lhs, Human rhs) {
+        if (lhs.name.equals(rhs.name)) {
+            return lhs.age - rhs.age;
+        } else {
+            return lhs.name.compareTo(rhs.name);
+        }
     }
 }
