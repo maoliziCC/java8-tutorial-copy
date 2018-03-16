@@ -5,6 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
+ * https://www.cnblogs.com/dolphin0520/p/3920397.html
  * @package:ccs
  * @author: lizhang
  * @date: 2018-03-06 10:36
